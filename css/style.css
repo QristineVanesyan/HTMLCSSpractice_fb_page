@@ -1,0 +1,381 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+
+}
+
+header {
+    height: 80px;
+    display: flex;
+    background-color: #3b599a;
+    color: white;
+}
+
+main {
+    background-color: #edf0f6;
+    height: 650px;
+    display: flex;
+}
+
+footer {
+    padding-left: 15%;
+    color: #808080;
+}
+
+
+/*hide labels*/
+.hide {
+    display: none;
+}
+
+/*---*/
+.left-part {
+    padding-left: 100px;
+    width: 60%;
+}
+.left-part a{
+    height: 80px;
+}
+.left-part img
+{
+    padding-top: 15px;
+}
+.left-part a:focus
+{
+    outline-width: 0;
+}
+.right-part {
+    padding-top: 5px;
+    position: relative;
+    width: 40%;
+
+}
+
+.right-part div {
+    padding: 5px 0 0 0;
+    margin: 0;
+    display: inline-block;
+
+
+}
+
+.right-part input:focus {
+    outline: none;
+    border: 2px solid #526aa5;
+}
+
+.right-part button {
+    background-color: #526aa5;
+    width: 60px;
+    height: 25px;
+    font-weight: bold;
+    border: 1px solid #526aa5;
+    border-radius: 3px;
+    color: #ffffff;
+}
+
+.right-part button:hover {
+    background-color: #354f80;
+
+}
+
+.right-part button:focus {
+    outline: none;
+    background-color: #354f80;
+
+}
+
+.right-part a {
+    margin-left: 172px;
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.right-part a:focus {
+    outline: none;
+    text-decoration: underline;
+}
+
+h1 {
+    color: #1d1d1d;
+    font-size: 30px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+}
+
+.list {
+    width: 60%;
+    padding-left: 100px;
+    padding-top: 100px;
+}
+
+ul li {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    list-style: none;
+}
+
+ul li span {
+    justify-content: center;
+
+}
+
+.list-item {
+    display: flex;
+}
+
+.list-item div {
+
+    display: block;
+
+    width: 550px;
+    padding: 23px 0px 0px 0px;
+}
+
+.strong {
+    color: #1d1d1d;
+    font-weight: bold;
+    font-size: 18px;
+    padding-left: 20px;
+}
+
+.grey {
+    color: #808080;
+    font-size: 18px;
+}
+
+.reg {
+    width: 40%;
+}
+
+h2 {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    color: #1d1d1d;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.expression {
+    color: #1d1d1d;
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+/*input for fname and lname*/
+.narrow {
+    width: 34%;
+    height: 38px;
+    border: 1px solid grey;
+    margin-top: 10px;
+    border-radius: 4px;
+    font-size: 16px;
+    padding: 10px;
+}
+
+.narrow:focus {
+    outline: none;
+    border: 2px solid #3b599a;
+}
+
+/*---*/
+/*input for password and email wide*/
+.wide {
+    width: 69%;
+    height: 38px;
+    margin-top: 10px;
+    border: 1px solid grey;
+    border-radius: 4px;
+    font-size: 16px;
+    padding: 10px;
+}
+
+.wide:focus {
+    outline: none;
+    border: 2px solid #3b599a;
+}
+
+/*---*/
+fieldset {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+}
+
+.birthday {
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #808080;
+}
+
+.birthday select {
+    height: 30px;
+}
+
+.birthday select:focus {
+    outline: none;
+    border: 2px solid #3b599a;
+}
+
+.provide-class {
+    padding-bottom: 20px;
+}
+
+#provide {
+    text-decoration: none;
+    color: #2451b3;
+
+}
+
+#provide:hover {
+    text-decoration: underline;
+
+}
+
+#provide:focus {
+    outline: none;
+    text-decoration: underline;
+}
+
+.extra-small a {
+    text-decoration: none;
+    color: #2451b3;
+    font-weight: bold;
+
+}
+
+.extra-small a:hover {
+    text-decoration: underline;
+
+}
+
+.extra-small a:focus {
+    outline: none;
+    text-decoration: underline;
+}
+
+
+.extra-small {
+    font-size: 12px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.gender {
+    padding-bottom: 20px;
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: grey;
+}
+
+.gender-type {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #1d1d1d;
+}
+
+.gender-block input:focus {
+    outline-color: #3b599a;
+    outline-width: medium;
+}
+
+.sign-up {
+    width: 200px;
+    height: 35px;
+    margin-bottom: 20px;
+    background-image: linear-gradient(#5e984b, #5a8f46);
+    border: 1px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.sign-up:hover {
+    background-image: linear-gradient(#73bd5f, #72b459);
+    box-shadow: 0px 0px 38px 0px rgba(115, 189, 95, 0.8);
+}
+
+.sign-up:focus {
+    outline: none;
+    background-image: linear-gradient(#73bd5f, #72b459);
+    box-shadow: 0px 0px 38px 0px rgba(115, 189, 95, 0.8);
+
+}
+
+.create {
+    padding-top: 10px;
+
+}
+
+.create a {
+    text-decoration: none;
+    font-weight: bold;
+
+    color: #2451b3;
+    font-size: 15px;
+}
+
+.create a:hover {
+    text-decoration: underline;
+}
+
+.create a:focus {
+    outline: none;
+    text-decoration: underline;
+}
+
+footer hr {
+    width: 1000px;
+}
+
+/*languages*/
+.lang {
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.lang a {
+    color: #2451b3;
+    text-decoration: none;
+
+
+}
+
+.lang a:hover {
+    text-decoration: underline;
+}
+
+.lang a:focus {
+    outline: none;
+    text-decoration: underline;
+}
+
+/*functions*/
+.func {
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.func a {
+    padding-top: 30px;
+    color: #2451b3;
+    text-decoration: none;
+}
+
+.func a:hover {
+    text-decoration: underline;
+}
+
+.func a:focus {
+    outline: none;
+    text-decoration: underline;
+}

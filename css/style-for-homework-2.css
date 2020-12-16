@@ -1,0 +1,14 @@
+td,
+tr{
+    border: #1d1d1d 2px solid;
+    width: 200px;
+    height: 100px;
+}
+table{
+
+    background-color: #e7ecf2;
+    border-collapse: collapse;
+ }
+.bold{
+    font-weight: bold;
+}
